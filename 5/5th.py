@@ -30,7 +30,7 @@ fb, lb = 8961400 - 100 * (13 - 1), 8961400 - 100 * (13 - 2)  # first block, last
 CommissionPercentage = []
 Commission_block = []  # commission for each block
 Reward_block = []  # reward for each block
-web3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/22ccc929d30a47be975b7fee7c05fa3e'))  # Connection via Infura
+web3 = Web3(Web3.HTTPProvider('******************************'))  # Connection via Infura
 NumberOfBlock = []
 for blockNumber in range(fb, lb):
     block = web3.eth.getBlock(blockNumber)  # Current block
